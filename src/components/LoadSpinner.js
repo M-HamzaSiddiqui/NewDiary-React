@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-export class LoadSpinner extends Component {
-    render() {
+const LoadSpinner =()=> {
+    
         return (
             <div>
                 <div className="d-flex justify-content-center">
@@ -10,7 +10,7 @@ export class LoadSpinner extends Component {
                 </div>
             </div>
         )
-    }
+    
 }
 
 export default LoadSpinner
